@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DashBoard</title>
+</head>
+<style>
+body {
+    background-color: black;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+a{
+    color:gray;
+    text-decoration: none;
+}
+</style>
+<body>
+    <h2>S.A.F.E Dashboard</h2> <br>
+    <h1>Hello! {{ user }}</h1> <a href={{ url_for('logout') }}>
+    <h3>Click here to logout</h3>
+    </a>
+    </body>
+</html>
